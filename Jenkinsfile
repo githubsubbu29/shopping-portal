@@ -2,11 +2,11 @@ pipeline{
 
     agent any
 
-// uncomment the following lines by removing /* and */ to enable
+// comment the following lines by removing /* and */ to enable
     tools{
        nodejs ' nodejs' 
     }
-    
+   
 
     stages{
         stage('build'){
